@@ -1,0 +1,120 @@
+[
+	{ "keys": ["f1"], "command": "toggle_side_bar" },
+	// { "keys": ["f1"], "command": "focus_side_bar" },
+	{ "keys": ["f2"], "command": "prompt_select_workspace" },
+
+	{ "keys": ["f11"], "command": "jump_back" },
+	{ "keys": ["f12"], "command": "jump_forward" },
+
+	{ "keys": ["option+f1"], "command": "focus_file_on_sidebar"},
+	{ "keys": ["option+f2"], "command": "gs_diff", "args": {"current_file": true, "in_cached_mode": false}},
+	{ "keys": ["option+f3"], "command": "gs_show_status"},
+
+	{ "keys": ["super+ctrl+option+shift+n"], "command": "git_gutter_next_change" },
+	{ "keys": ["super+ctrl+option+shift+p"], "command": "git_gutter_prev_change" },
+	{ "keys": ["super+ctrl+option+shift+m"], "command": "git_gutter_diff_popup" },
+
+	{ "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"github"} },
+
+	{ "keys": ["option+d"], "command": "goto_definition" },
+
+	// Plain Task keys
+	{ "keys": ["ctrl+d"], "command": "plain_tasks_complete","context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] },
+
+	// side bar delete
+	{ "keys": ["option+shift+d"], "command": "side_bar_delete" },
+
+	// delete line
+	{ "keys": ["super+e"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro" } },
+
+	// { "keys": ["super+option+j"], "command": "focus_group", "args": { "group": 0 } },
+	// { "keys": ["super+option+l"], "command": "focus_group", "args": { "group": 1 } },
+	{ "keys": ["super+k", "super+j"], "command": "move_to_group", "args": { "group": 0 } },
+	{ "keys": ["super+k", "super+l"], "command": "move_to_group", "args": { "group": 1 } },
+	{ "keys": ["super+ctrl+l"], "command": "show_at_center" },
+
+	{ "keys": ["super+ctrl+option+shift+i"], "command": "zoom_pane", "args": {"fraction": 0.9} },
+
+	{
+		"keys": ["super+ctrl+option+shift+j"],
+		"command": "chain",
+		"args": {
+			"commands": [
+				["set_layout", {
+					"cols": [0.0, 0.67, 1.0],
+					"rows": [0.0, 1.0],
+					"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+				}],
+				["focus_group", {"group": 0}]
+			]
+		}
+	},
+
+	{
+		"keys": ["super+ctrl+option+shift+k"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.5, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+		}
+	},
+
+	{
+		"keys": ["super+ctrl+option+shift+l"],
+		"command": "chain",
+		"args": {
+			"commands": [
+				["set_layout", {
+					"cols": [0.0, 0.33, 1.0],
+					"rows": [0.0, 1.0],
+					"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+				}],
+				["focus_group", {"group": 1}]
+			]
+		}
+	},
+
+	{ "keys": ["alt+1"], "command": "ensime_show_type" },
+	{ "keys": ["alt+2"], "command": "ensime_go_to_definition" },
+	{ "keys": ["alt+3"], "command": "ensime_toggle_errors" },
+	{ "keys": ["alt+i"], "command": "ensime_add_import" },
+	{ "keys": ["alt+."], "command": "auto_complete" },
+
+	{ "keys": ["super+option+l"], "command": "split_selection_into_lines" },
+	{ "keys": ["super+option+j"], "command": "expand_selection", "args": {"to": "indentation"} },
+	{ "keys": ["super+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+	// { "keys": ["alt+j"], "command": "move", "args": {"by": "words", "forward": false} },
+	// { "keys": ["alt+l"], "command": "move", "args": {"by": "wordends", "forward": true} },
+	// { "keys": ["alt+shift+j"], "command": "move", "args": {"by": "words", "forward": false, "extend":true} },
+	// { "keys": ["alt+shift+l"], "command": "move", "args": {"by": "wordends", "forward": true, "extend":true} },
+	// { "keys": ["alt+shift+space"], "command": "expand_selection", "args": {"to": "scope"} }
+	{ "keys": ["alt+p"], "command": "tab_filter" },
+	{
+	    "keys": ["alt+/"],
+	    "command": "doxy_comment_nearest_entity",
+	    "args": {},
+	    "context": [
+	        { "key": "selector", "operator": "equal", "operand": "source, text.html.cshtml, text.jade", "match_all": true }
+	    ]
+	},
+	{
+	    "keys": ["alt+/"],
+	    "command": "doxy_update_comments",
+	    "args": { "reparse": true },
+	    "context": [
+	        { "key": "selector", "operator": "equal",  "operand": "comment, string.quoted.double.block.cython, string.quoted.single.block.cython, string.quoted.double.block.python, string.quoted.single.block.python", "match_all": true }
+	    ]
+	},
+	{
+	    "keys": ["ctrl+alt+/"],
+	    "command": "doxy_update_comments",
+	    "args": { "reparse": true, "new_style": "roll_2" },
+	    "context": [
+	        { "key": "selector", "operator": "equal",  "operand": "comment, string.quoted.double.block.cython, string.quoted.single.block.cython, string.quoted.double.block.python, string.quoted.single.block.python", "match_all": true }
+	    ]
+	},
+	{ "keys": ["super+ctrl+option+shift+9"], "command": "fold" },
+	{ "keys": ["super+ctrl+option+shift+0"], "command": "unfold" },
+]

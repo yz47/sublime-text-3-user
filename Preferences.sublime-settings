@@ -1,0 +1,116 @@
+{
+	"additional_path_items":
+	[
+		"/usr/local/var/rbenv/shims"
+	],
+	"animation_enabled": false,
+	"auto_complete": false,
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		".bundle/*"
+	],
+	"bold_folder_labels": false,
+	"caret_extra_bottom": 3,
+	"caret_extra_top": 3,
+	"caret_extra_width": 2,
+	"caret_style": "phase",
+	"close_sidebar_if_opened": false,
+	"color_inactive_tabs": true,
+	"color_scheme": "Packages/Theme - Monokai Pro/Monokai Pro (Filter Machine).tmTheme",
+	"drag_text": false,
+	"enable_tab_scrolling": true,
+	"ensure_newline_at_eof_on_save": true,
+	"env":
+	{
+		"PATH": "/usr/local/Cellar/elixir/`.2.5/bin"
+	},
+	"fade_fold_buttons": false,
+	"find_selected_text": true,
+	"findreplace_small": true,
+	"font_face": "Source Code Pro",
+	"font_options":
+	[
+		"no_round",
+		"gray_antialias",
+		"subpixel_antialias"
+	],
+	"font_size": 14,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Markdown",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"index_exclude_patterns":
+	[
+		"/Users/yijia_zhan/src/accounts/bin*",
+		"*.log"
+	],
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"margin": 15,
+	"match_brackets_content": false,
+	"match_selection": false,
+	"match_tags": false,
+	"material_theme_compact_sidebar": true,
+	"material_theme_small_statusbar": true,
+	"monokai_pro_sidebar_row_padding": 2,
+	"monokai_pro_small_scrollbar": true,
+	"overlay_scroll_bars": "enabled",
+	"preview_on_click": true,
+	"rulers":
+	[
+		99
+	],
+	"scala_worksheet_sync_views": true,
+	"scroll_past_end": false,
+	"show_definitions": false,
+	"show_full_path": true,
+	"show_panel_on_build": true,
+	"show_tab_close_buttons": false,
+	"sidebar_medium": true,
+	"tabs_medium": true,
+	"theme": "Monokai Pro (Filter Machine).sublime-theme",
+	"theme_accent_tangerine": true,
+	"theme_autocomplete_item_selected_colored": true,
+	"theme_dirty_materialized": true,
+	"theme_dropdown_atomized": true,
+	"theme_icon_button_highlighted": true,
+	"theme_panel_switcher_atomized": true,
+	"theme_quick_panel_item_selected_colored": true,
+	"theme_scrollbar_colored": true,
+	"theme_scrollbar_line": true,
+	"theme_sidebar_close_always_visible": true,
+	"theme_sidebar_folder_atomized": true,
+	"theme_sidebar_folder_mono": true,
+	"theme_tab_close_always_visible": true,
+	"theme_tab_line_size_lg": true,
+	"theme_tab_selected_transparent": true,
+	"theme_tab_selected_underlined": true,
+	"theme_tab_size_md": true,
+	"theme_tab_size_xl": true,
+	"theme_tab_width_auto": true,
+	"tree_animation_enabled": false,
+	"trim_trailing_white_space_on_save": true,
+	"typewriter_mode_scrolling": false,
+	"use_simple_full_screen": true
+}

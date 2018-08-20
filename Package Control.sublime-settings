@@ -1,0 +1,50 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"API Blueprint",
+		"BeautifyRuby",
+		"BetterFindBuffer",
+		"Boxy Theme",
+		"BracketHighlighter",
+		"Chain of Command",
+		"Crystal",
+		"DA UI",
+		"DoxyDoxygen",
+		"ensime-sublime",
+		"FileManager",
+		"Fix Mac Path",
+		"Focus File on Sidebar",
+		"Generic Config",
+		"GitGutter",
+		"GitSavvy",
+		"GraphQL",
+		"Indent XML",
+		"Markdown Extended",
+		"MarkdownEditing",
+		"MarkdownLight",
+		"Material Theme",
+		"Origami",
+		"Package Control",
+		"PackageResourceViewer",
+		"Pretty JSON",
+		"Rails Developer Snippets",
+		"Requester",
+		"RSpec",
+		"ScrollOffset",
+		"SqlBeautifier",
+		"SublimeLinter",
+		"Tab Filter",
+		"Table Editor",
+		"Theme - Monokai Pro",
+		"Typewriter"
+	],
+	"repositories":
+	[
+		"https://github.com/ensime/ensime-sublime"
+	]
+}
