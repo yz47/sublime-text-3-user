@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+gem 'pry-byebug'
+gem 'pry-rescue'
+gem 'pry-stack_explorer'
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<tabTrigger>gempry</tabTrigger>
+	<scope>source.ruby, text.html.ruby</scope>  
+</snippet>

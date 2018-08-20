@@ -1,0 +1,112 @@
+{
+	"alt_click_inspects_type_at_point": true,
+	"breakpoint_icon": "circle",
+	"breakpoint_scope": "ensime.breakpoint",
+	"connect_to_external_server": false,
+	"ctrl_click_goes_to_definition": true,
+	"debug_autolayout": true,
+	"debug_layout_when_entering_debugmode":
+	{
+		"Ensime output": 1,
+		"Ensime stack": 1,
+		"Ensime watches": 1,
+		"layout":
+		{
+			"cells":
+			[
+				[
+					0,
+					0,
+					1,
+					1
+				],
+				[
+					1,
+					0,
+					2,
+					1
+				]
+			],
+			"cols":
+			[
+				0.0,
+				0.66,
+				1.0
+			],
+			"rows":
+			[
+				0.0,
+				1.0
+			]
+		}
+	},
+	"debug_layout_when_leaving_debugmode":
+	{
+		"Ensime output": null,
+		"Ensime stack": null,
+		"Ensime watches": null,
+		"layout":
+		{
+			"cells":
+			[
+				[
+					0,
+					0,
+					1,
+					1
+				]
+			],
+			"cols":
+			[
+				0.0,
+				1.0
+			],
+			"rows":
+			[
+				0.0,
+				1.0
+			]
+		}
+	},
+	"debug_max_collection_elements_to_show": 10,
+	"debug_show_class": true,
+	"debug_specialcase_scala_collections": true,
+	"debugfocus_icon": "",
+	"debugfocus_scope": "ensime.debugfocus",
+	"ensime_statusbar_group": "ensime",
+	"ensime_statusbar_heartbeat_enabled": true,
+	"ensime_statusbar_heartbeat_inproject_debugging": "DEBUGGING %s",
+	"ensime_statusbar_heartbeat_inproject_normal": "ENSIME",
+	"ensime_statusbar_heartbeat_joint": ": ",
+	"ensime_statusbar_heartbeat_notinproject_debugging": "debugging %s",
+	"ensime_statusbar_heartbeat_notinproject_normal": "ensime",
+	"ensime_statusbar_maxlength": 150,
+	"ensime_statusbar_showerrors": true,
+	"error_highlight": true,
+	"error_icon": "",
+	"error_scope": "invalid.illegal",
+	"error_underline": false,
+	"log_to_console":
+	[
+	],
+	"log_to_file":
+	[
+		"ui",
+		"client",
+		"server"
+	],
+	"max_import_suggestions": 20,
+	"min_ensime_server_version": "0.9.8.6",
+	"os_independent_paths_in_dot_ensime": false,
+	"plugin_version": "0.9.0",
+	"sbt_binary": "/usr/local/bin/sbt",
+	"sbt_flags":
+	[
+		"-Dsbt.log.noformat=true"
+	],
+	"single_click_inspects_type_at_point": true,
+	"stackfocus_icon": "",
+	"stackfocus_scope": "ensime.stackfocus",
+	"timeout_completions": 1.0,
+	"timeout_sync_roundtrip": 3
+}

@@ -1,0 +1,38 @@
+GraphQL Write Discussion
+
+1. Should we merge incompatible columns in mergeRows?
+  - need to tackle when we handle AN upload
+  - need to understand effort to change the current "AN wins" behavior
+
+
+2. List[rows] - does it have schema data or not?
+  - tricky but possible to do in QuerySevice + Schema Manager
+  - keep same semantic for merge table insert rows and update rows
+  - reconcilation rules?
+
+3. Is it ok for most operations (except create/delete table) to deal with sets of data and not individual items?
+  - mainly for column operations
+  - possible to make all mutation function to operate on a data set instead of an individual data
+
+4. How do we handle partial success for bulk operations? (raise error or finish what you can?)
+  - for functions that process a set of data, it's preferrable to be atomic, and thus no partial success. This is the default behavior.
+
+  mutation {
+    doFirstThing(argument)
+    doSecondThing(argument)
+
+    deleteTable(ids: [1,3])
+  }
+
+5. Do update APIs for large rows follow same pagination constraints as read APIs?
+
+6. MergeTables - merge two existing tables, or merge a set of rows/schema into an existing table?
+
+7. record_id - Will QS generate it for new uploads? Is it guaranteed to be globally unique? How is it returned?
+
+8. Table name in Schema Manager
+
+
+TODO:
+
+1. identify a set of async use cases and operations
